@@ -21,7 +21,9 @@ export const globalStyles = css `
         text-decoration: none;
       }
       
-      * {
+      * ,
+      *::after,
+      *::before {
         box-sizing: border-box;
       }
       
